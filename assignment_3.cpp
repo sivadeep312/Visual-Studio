@@ -469,7 +469,7 @@ int main()
 		cout << "    6. Quit" << endl << endl;
 		cout << endl << endl << "Please enter the related number of your requested command? : ";
 		cin >> num;
-		cin.ignore(256, '\n');
+		cin.ignore();
 
 		switch (num)
 		{
